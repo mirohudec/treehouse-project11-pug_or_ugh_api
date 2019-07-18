@@ -4,10 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
+pep8 = "*"
+flake8 = "*"
+autopep8 = "*"
 
 [packages]
-django = "*"
-djangorestframework = "*"
+django = "==2.2.3"
+djangorestframework = "==3.9.4"
+coverage = "*"
 
 [requires]
 python_version = "3.7"

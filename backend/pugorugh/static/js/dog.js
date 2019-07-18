@@ -158,13 +158,13 @@ var Dog = React.createClass({
         "p",
         { className: "dog-card" },
         this.state.details.name,
-        "•",
+        "\u2022",
         this.state.details.breed,
-        "•",
+        "\u2022",
         this.state.details.age,
-        " Months•",
+        " Months\u2022",
         this.genderLookup[this.state.details.gender],
-        "•",
+        "\u2022",
         this.sizeLookup[this.state.details.size]
       ),
       this.dogControls()

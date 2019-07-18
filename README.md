@@ -1,5 +1,10 @@
 # Pug or Ugh
 
+### Comments
+
+- Replaced requirements with pipenv
+- Not going for Exceed Expectations
+
 ## Requirements
 
 Create the models, serializers, and views to power the provided Angular
