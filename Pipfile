@@ -10,7 +10,7 @@ flake8 = "*"
 autopep8 = "*"
 
 [packages]
-django = "==2.2.3"
+django = "==2.2.24"
 djangorestframework = "==3.9.4"
 coverage = "*"
 
